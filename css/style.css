@@ -691,6 +691,7 @@ body {
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
   transition: transform 250ms var(--main-animations);
+  margin: 40px;
 }
 
 .modal-close-btm {
@@ -717,4 +718,8 @@ body {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
 }
