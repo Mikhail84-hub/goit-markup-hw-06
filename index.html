@@ -395,7 +395,7 @@
         </div>
         
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btm" data-modal-close>
                 <svg class="close">
@@ -407,17 +407,26 @@
                 <label class="modal-form-field">
                     Имя
                     <input type="text" name="user-name" class="modal-form-input" required minlength="2">
+                    <svg class="modal-input-icons">
+                        <use href="./images/svg-html/svg-modal-btn/input-icon.svg#icon-person"></use>
+                    </svg>
                 </label>
             
                 <label class="modal-form-field">
                     Телефон
                     <input type="tel" name="user-phone" class="modal-form-input" required
                         pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="097-111-11-11">
+                    <svg class="modal-input-icons">
+                        <use href="./images/svg-html/svg-modal-btn/input-icon.svg#icon-phone"></use>
+                    </svg>
                 </label>
             
                 <label class="modal-form-field">
                     Почта
                     <input type="email" name="user-email" class="modal-form-input">
+                    <svg class="modal-input-icons">
+                        <use href="./images/svg-html/svg-modal-btn/input-icon.svg#icon-email"></use>
+                    </svg>
                 </label>
             
                 <label class="modal-form-field">
@@ -432,7 +441,7 @@
             </form>
         </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
 </body>
 
 </html>
