@@ -390,10 +390,27 @@
                     </a></li>
                 </ul>
             </div>
+
+            <!-- ==== INPUT mailing ====== -->
+            
+                <div class="input-footer">
+                    <!-- <labele class=""> -->
+                        <p class="mailing">Подпишитесь на рассылку</p>
+                        <form class="subscribe-form" action="#">
+                        <input type="email" name="user-email" class="win-input" placeholder="Введите текст">
+                    <!-- </labele> -->
+                    <button type="submit" class="footer-form-btn">Подписаться
+                        <svg class="icon-telegram">
+                            <use href="./images/svg-html/svg-footer/icon-telegram.svg#icon-icon-send-1"></use>
+                        </svg>
+                    </button>
+                    </form>
+                </div>
+            
         </div>
         
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btm" data-modal-close>
                 <svg class="close">
@@ -445,11 +462,7 @@
                     
                     <input type="checkbox" id="user-term" name="user-term" class="modal-form-term visually-hidden">
                     <label for="user-term" class="modal-form-check-desc">
-                        <svg class="modal-check-icon">
-                            <use href="./images/svg-html/svg-modal-btn/check-modal-icon.svg#icon-check-1"></use>
-                        </svg>
-                        Соглашаюсь с рассылкой и принимаю&nbsp; <a href="">Условия договора
-                        
+                        Соглашаюсь с рассылкой и принимаю&nbsp;<a href="">Условия договора
                         </a>
                         
                     </label>
@@ -459,7 +472,7 @@
             </form>
         </div>
     </div>
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
